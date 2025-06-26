@@ -1,0 +1,140 @@
+@import "tailwindcss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top, #050923 5%, #32495b 100%);
+}
+.navcontainer{
+    width: 100%;
+    height: 10vh;
+    background-color: #050923d0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid beige;
+    gap: 1000px;
+}
+.navlogo{
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 200px;
+}
+.profilephoto img{
+    height: 500px;
+    border-radius: 1000px;
+    border: 2px solid beige;
+}
+.nametc h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: beige;
+}
+.nametc .slogan{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+}
+.eduskills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    gap: 50px;
+}
+.eduskills .eduheading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: beige;
+}
+.edu2box{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.edu2box .edubox1{
+    height: 350px;
+    width: 600px;
+    background-color: rgba(128, 128, 128, 0.485);
+    border-radius: 25px;
+    border: 2px solid rgba(245, 245, 220, 0.527);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    font-size: 30px;
+    color: beige;
+}
+.edu2box .edubox2{
+    height: 350px;
+    width: 600px;
+    background-color: rgba(128, 128, 128, 0.485);
+    border-radius: 25px;
+    border: 2px solid rgba(245, 245, 220, 0.527);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    font-size: 30px;
+    color: beige;
+}
+.social{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.socialsheading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: beige;
+    margin-bottom: 50px;
+}
+
+.footer{
+    width: 100%;
+    height: 12vh;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border-top: 2px solid beige;
+}
+.content1, .content2, .content3, .content4, .content5, .content6{
+    height: 40px;
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.500);
+    border-radius: 15px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+}
