@@ -225,6 +225,12 @@ a{
     padding-top: 100px;
     padding-bottom: 10px;
   }
+  .profilephoto img{
+    height: 450px;
+    border-radius: 1000px;
+    border: 2px solid beige;
+    z-index: 1;
+}
 }
 .eduskills{
     display: flex;
@@ -277,8 +283,29 @@ a{
     font-size: 30px;
     color: beige;
 }
-@media(max-width:657px){
-  
+@media(max-width:1000px){
+  .edu2box .edubox1{
+    height: 250px;
+    width: 350px;
+    background-color: rgba(128, 128, 128, 0.485);
+    border-radius: 25px;
+    border: 2px solid rgba(245, 245, 220, 0.527);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    font-size: 30px;
+    color: beige;
+}
+.edu2box .edubox2{
+    height: 250px;
+    width: 350px;
+    background-color: rgba(128, 128, 128, 0.485);
+    border-radius: 25px;
+    border: 2px solid rgba(245, 245, 220, 0.527);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    font-size: 30px;
+    color: beige;
+}
 }
 
 .socials{
@@ -326,7 +353,7 @@ a{
 @media(max-width:758px){
   .content1, .content2, .content3, .content4, .content5, .content6{
     height: 40px;
-    width: 400px;
+    width: 350px;
     border: 2px solid rgba(255, 255, 255, 0.500);
     border-radius: 15px;
     margin: 15px;
