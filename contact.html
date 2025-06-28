@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Rahul Verma</title>
+    <link rel="stylesheet" href="1portfolio.css">
+    <script src="1portfolio.js"></script>
+    <style>
+        .containerContact{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contactbox{
+            border: 2px solid rgba(245, 245, 220, 0.456);
+            height: 700px;
+            width: 1200px;
+            margin-top: 180px;
+            margin-bottom: 180px;
+            border-radius: 25px;
+            background-color: rgba(20, 32, 41, 0.568);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .contactmsg{
+            height: 500px;
+            width: 500px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: beige;
+            font-size: larger;
+        }
+        .contactmsg p{
+            font-size: 50px;
+        }
+        .contactmsg input{
+            border: 2px solid rgba(245, 245, 220, 0.592);
+            border-radius: 10px;
+            height:30px;
+            width: 220px;
+            background-color: rgba(255, 255, 255, 0.401);
+            padding: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .contactmsg #checkbox{
+            width: 20px;
+            margin-top: 10px;
+        }
+        .contactmsg textarea{
+            border: 2px solid rgba(245, 245, 220, 0.592);
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.401);
+            height: 160px;
+            width: 250px;
+            padding: 10px;
+        }
+        .contactmsg button{
+            background-color: rgb(0, 143, 74);
+            padding: 5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 2px solid rgba(245, 245, 220, 0.592);
+            border-radius: 10px;
+            width: 120px;
+            font-size: 15px;
+        }
+        .contactsocials{
+            height: 500px;
+            width: 500px;
+            border-left: 1px solid white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: beige;
+            font-size: larger;
+            display: flex;
+            justify-content: center;
+        }
+        .contactsocials p{
+            font-size: 50px;
+        }
+        @media(max-width:1270px){
+            .contactbox{
+            border: 2px solid rgba(245, 245, 220, 0.456);
+            height: 700px;
+            width: 1200px;
+            margin-top: 180px;
+            margin-bottom: 180px;
+            border-radius: 25px;
+            background-color: rgba(20, 32, 41, 0.568);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <header>
+        <div class="navcontainer">
+            <div class="navlogo">
+                <a href="1portfolio.html">Rahul's Portfolio</a>
+            </div>
+            <div class="navlist">
+                <a href="" class="home">Home</a>
+                <a href="" class="about">About</a>
+                <a href="" class="contact">Contact</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="containerContact">
+            <div class="contactbox">
+                <div class="contactmsg">
+                    <form>
+                        <p>Contact Form</p><br>
+                        <!-- Your Name -->
+                        <label for="name">Your Name</label> <br>
+                        <input type="text" id="name"> <br> <br> 
+                        <!-- Email Address -->
+                        <label for="email">Email Address</label> <br>
+                        <input type="text" id="email"> <br> <br>
+                        <!-- Message -->
+                        <label for="message">Message</label> <br>
+                        <textarea name="" id="message"></textarea> <br> 
+                        <!-- check box -->
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox"> I confirm that all details mentioned above are correct.</label> <br> <br>
+                        <!-- button -->
+                        <Button>Send Message</Button>
+                    </form>
+                </div>
+                <div class="contactsocials">
+                    <form>
+                        <p>Socials</p><br>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footername">
+                <p>Built with HTML, CSS, JS & ❤️</p><br>
+                <p>Designed & Developed by RAHUL</p>
+            </div>
+            <div class="footersocial">
+                <p>© 2025 Portfolio. All rights reserved.</p><br>
+                <p>Connect with me:
+                <a href="https://linkedin.com/in/rahul-verma-268860287">LinkedIn</a> ·
+                <a href="https://github.com/RahulVerma2629">GitHub</a> ·
+                <a href="https://leetcode.com/u/rahul_verma1234/">LeetCode</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+
