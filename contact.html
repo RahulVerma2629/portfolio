@@ -129,12 +129,18 @@
     <header>
         <div class="navcontainer">
             <div class="navlogo">
-                <a href="index.html">Rahul's Portfolio</a>
+            <a href="#">
+                <span class="full-name">Rahul's Portfolio</span>
+                <span class="short-name">RP</span>
+            </a>
             </div>
-            <div class="navlist">
-                <a href="" class="home">Home</a>
-                <a href="" class="about">About</a>
-                <a href="" class="contact">Contact</a>
+            
+            <!-- Hamburger for small screens -->
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <div class="navlist" id="navMenu">
+                <a href="index.html" class="home">Home</a>
+                <a href="index.html#bookmark" class="about">About</a>
+                <a href="contact.html" class="contact">Contact</a>
             </div>
         </div>
     </header>
