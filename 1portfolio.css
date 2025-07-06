@@ -271,6 +271,7 @@ a{
     padding: 15px;
     font-size: 30px;
     color: beige;
+    transition: transform 0.3s ease;
 }
 .edu2box .edubox2{
     height: 250px;
@@ -282,6 +283,12 @@ a{
     padding: 15px;
     font-size: 30px;
     color: beige;
+    transition: transform 0.3s ease;
+}
+.edubox1:hover, .edubox2:hover{
+  background-color: rgba(128, 128, 128, 0.800);
+  transform: scale(1.08);
+
 }
 @media(max-width:1000px){
   .edu2box .edubox1{
@@ -341,7 +348,7 @@ a{
     width: 650px;
     border: 2px solid rgba(255, 255, 255, 0.500);
     border-radius: 15px;
-    margin: 15px;
+    margin: 5px;
     background-color: rgba(255, 255, 255, 0.110);
     display: flex;
     justify-content: center;
@@ -349,6 +356,23 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     color: beige;
+    transition: 0.1s ease;
+}
+.content1:hover, .content2:hover, .content3:hover, .content4:hover, .content5:hover, .content6:hover, .content7:hover{
+    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.500);
+    border-radius: 15px;
+    margin: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: black;
+    a{
+      color: black;
+    }
 }
 @media(max-width:758px){
   .content1, .content2, .content3, .content4, .content5, .content6, .content7{
@@ -356,7 +380,7 @@ a{
     width: 350px;
     border: 2px solid rgba(255, 255, 255, 0.500);
     border-radius: 15px;
-    margin: 15px;
+    margin: 5px;
     background-color: rgba(255, 255, 255, 0.110);
     display: flex;
     justify-content: center;
