@@ -420,6 +420,15 @@ footer {
   z-index: 1;
   position: relative;
 }
+.footersocial img{
+  height: 30px;
+}
+.footersocial img:hover{
+  transform: scale(1.1);
+}
+.footer .❤️{
+  font-size: x-large;
+}
 #stars, #stars2, #stars3 {
   z-index: 0;
 }
