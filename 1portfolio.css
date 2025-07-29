@@ -273,7 +273,7 @@ a{
     border-radius: 25px;
     border: 2px solid rgba(245, 245, 220, 0.527);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px;
+    padding: 22px;
     font-size: 30px;
     color: beige;
     transition: transform 0.3s ease;
@@ -285,7 +285,7 @@ a{
     border-radius: 25px;
     border: 2px solid rgba(245, 245, 220, 0.527);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px;
+    padding: 22px;
     font-size: 30px;
     color: beige;
     transition: transform 0.3s ease;
@@ -303,7 +303,7 @@ a{
     border-radius: 25px;
     border: 2px solid rgba(245, 245, 220, 0.527);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px;
+    padding: 22px;
     font-size: 30px;
     color: beige;
 }
@@ -314,10 +314,22 @@ a{
     border-radius: 25px;
     border: 2px solid rgba(245, 245, 220, 0.527);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px;
+    padding: 22px;
     font-size: 30px;
     color: beige;
 }
+}
+
+.educontent{
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.eduskillscon{
+  margin-top: 12px;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .socials{
